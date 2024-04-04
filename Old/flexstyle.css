@@ -1,0 +1,198 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: arial;
+    box-sizing:border-box;
+}
+
+ body{
+    display:flex;
+    flex-direction: column;
+ }
+
+ 
+/* I have changed the Nav Bar color to green */
+.container-fluid{
+    background-color: rgb(95, 146, 95);
+}
+
+/* The buttons on the navbar is black */
+ .nav-link{
+    color:black;
+    margin-left: 50px;
+ }
+
+
+/* The color of the search button is green on the navbar */
+
+.btn {
+    color: black; /* Button text color */
+    border-color: lightgreen; /* Button border color */
+    transition: color 0.5s, border-color 0.5s; /* Smooth transition */
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    min-height:100px;
+    background-color: blueviolet;
+     margin:auto;  
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:auto;
+    
+}
+
+#vacancy-anim{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:auto;
+    border: solid black;
+
+}
+
+marquee label a{
+    color:black;
+    align-items: center;
+}
+
+#company-profile{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    height:auto;
+    
+    width:100%;
+    
+}
+
+#company-profile h1{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width:100%;
+    color: rgb(31, 68, 31);
+}
+
+#company-profile p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width:100%;
+    color: black;
+}
+
+#visionmission{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:auto;
+    
+    justify-content: space-around; 
+    margin-bottom: 1%;
+    
+}
+
+#vision{
+    display: flex;
+    height:100px;
+    width: 10PX;
+    border: solid black;
+}
+
+#mission{
+    display: flex;
+    height:100px;
+    width: 10PX;
+    border: solid black;    
+}
+
+
+
+/* Modify the width of company profile */
+.elementor-element elementor-element-d397ef6 elementor-widget elementor-widget-heading{
+    width: 100%;
+    height: auto;
+}
+
+.elementor-heading-title elementor-size-default{
+    width: 100%;
+    height: auto; 
+}
+
+.elementor-widget-container{
+    width: 100%;
+    height: auto; 
+}
+
+#carousel{
+
+    display: flex;
+    /* flex-direction: row; */
+    width:100%;
+    background-color: yellow;
+    border-top: solid green 5px;
+}
+
+
+.nav-item:first-child .nav-link {
+    border: 1px solid lightgreen;
+    margin-top: 10px; 
+  }
+
+  .nav-item:nth-child(2) .nav-link {
+    border: 1px solid lightgreen;
+    margin-top: 10px; 
+  }
+
+  .nav-item:nth-child(3) .nav-link {
+    border: 1px solid lightgreen;
+    margin-top: 10px; 
+  }
+
+  .nav-item:nth-child(4) .nav-link {
+    border: 1px solid lightgreen;
+    margin-top: 10px; 
+  }
+
+  .nav-item:nth-child(5) .nav-link {
+    border: 1px solid lightgreen;
+    margin-top: 10px; 
+  }
+
+  .nav-item:nth-child(6) .nav-link {
+    border: 1px solid lightgreen;
+    margin-top: 10px; 
+  }
+
+  .nav-item:nth-child(7) .nav-link {
+    border: 1px solid lightgreen;
+    margin-top: 10px; 
+    margin-right: 30px;
+  }
+
+  /* Modify the Carousel width and height */
+
+.carousel-item img {
+    width: 100%;
+    height: 200px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+
+#carouselExampleIndicators{
+ 
+    width: 100%;
+    height: auto;
+}
+

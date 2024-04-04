@@ -1,0 +1,20 @@
+
+/* I have changed the Nav Bar color to green */
+.container-fluid{
+    background-color: rgb(95, 146, 95);
+}
+
+/* The buttons on the navbar is black */
+ .nav-link{
+    color:black;
+    margin-left: 50px;
+ }
+
+
+/* The color of the search button is green on the navbar */
+
+.btn {
+    color: black; /* Button text color */
+    border-color: black; /* Button border color */
+    transition: color 0.5s, border-color 0.5s; /* Smooth transition */
+}
