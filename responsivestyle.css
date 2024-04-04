@@ -50,6 +50,7 @@ main {
     height: auto;
     background-color: rgb(213, 223, 213);
     justify-content: space-around;
+    padding-bottom: 10px;
 }
 
 
