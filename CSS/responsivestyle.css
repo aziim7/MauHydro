@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    background-color: rgb(213, 223, 213);
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgb(66, 141, 66);
+}
+
+.btn {
+    color: black;
+    border-color: black;
+    transition: color 0.5s, border-color 0.5s;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#company-profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(213, 223, 213);
+  
+}
+
+#visionmission {
+    display: flex;
+    flex-direction: row;
+    
+    
+    width: 100%;
+    height: auto;
+    background-color: rgb(213, 223, 213);
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+ 
+
+#carousel {
+    display: flex;
+    width: 100%;
+    border-top: solid green 5px;
+    align-content: center;
+    background-color: aquamarine;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 200px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+    height: auto;
+}
+
+
+#plants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    flex: 0 0 calc(25% - 1rem); /* Four items per row with some spacing */
+    margin: 0.5rem; /* Adjust spacing between items */
+    text-align: center; /* Center the content */
+} 
+
+.card img {
+    width: 100%;
+    height: 200px; /* Set your desired height */
+    object-fit: cover; /* Ensure the image covers the entire space */
+}
+
+.elementor-widget-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control.me-2 {
+    flex: 1;
+}
+
+ h1{
+    
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4{
+    color:black;
+}
+footer{
+    background-color: rgb(107, 150, 107);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    width:100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+iframe{
+    width: 300px;
+    height: 100px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* label {
+    display: block;
+    margin-bottom: 5px;
+} */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.btnregister{
+    background-color: green;
+    color: white;
+    
+    margin-bottom: 25px;
+}
+
+.btnregister:hover{
+    background-color: rgb(30, 36, 30);
+   
+}
+
+
+@media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        width: 100%;
+    }
+    .navbar-expand-lg .navbar-toggler {
+        display: block;
+    }
+    .navbar-expand-lg .collapse {
+        display: none !important;
+    }
+    .navbar-expand-lg .collapsed {
+        display: block !important;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: block !important;
+    }
+    .navbar-expand-lg .navbar-collapse.collapsing {
+        display: block !important;
+    }
+
+    #company-profile {
+        padding: 20px; /* Add padding for better readability on smaller screens */
+    }
+
+
+    #vision, #mission {
+        width: 100%; /* Make the images take up the full width on smaller screens */
+        height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+    }
+
+    #carousel {
+        padding: 20px; /* Add padding for better readability on smaller screens */
+    }
+
+    .carousel-item img {
+        height: auto; /* Make carousel images responsive by setting height to auto */
+    }
+
+    .carousel-inner img {
+        height: auto; /* Make carousel images responsive by setting height to auto */
+    }
+}

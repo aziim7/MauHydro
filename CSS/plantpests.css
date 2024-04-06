@@ -33,24 +33,126 @@ main {
     width: 100%;
 }
 
-#company-profile {
+#plantpests {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: aquamarine;
   
+    
+    
 }
 
-#visionmission {
+#insectsandpreventions{
     display: flex;
     flex-direction: row;
-    
-    
     width: 100%;
     height: auto;
-    background-color: aquamarine;
     justify-content: space-around;
+    padding-bottom: 10px;
+    
 }
+
+#diseasesandpreventions{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    
+}
+
+#tutaabsoluta{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+#tutaabsoluta img{
+    width:400px;
+    height:400px;
+    margin: 20px;
+    
+    
+}
+
+#tutaabsoluta p{
+    width:400px;
+    height:400px;
+    margin: 20px;
+    
+    
+}
+
+#shelledgastropod{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+#shelledgastropod img{
+    width:400px;
+    height:400px;
+    margin: 20px;
+    
+    
+}
+
+#shelledgastropod p{
+    width:400px;
+    height:400px;
+    margin: 20px;
+    
+    
+}
+
+#bacterialwilt{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+#bacterialwilt img{
+    width:400px;
+    height:400px;
+    margin: 20px;
+    
+    
+}
+
+#bacterialwilt p{
+    width:400px;
+    height:400px;
+    margin: 20px;
+    
+    
+}
+
+#powdery_mildrew{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+#powdery_mildrew img{
+    width:400px;
+    height:400px;
+    margin: 20px;
+    
+    
+}
+
+#powdery_mildrew p{
+    width:400px;
+    height:400px;
+    margin: 20px;    
+    
+}
+
 
 
 
@@ -58,37 +160,48 @@ main {
 
  
 
-#carousel {
+
+
+
+
+
+footer{
+    background-color: rgb(107, 150, 107);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
     display: flex;
-    width: 100%;
-    border-top: solid green 5px;
-    align-content: center;
-    background-color: aquamarine;
+    margin-top: 20PX;
+    width:100%;
 }
 
-.carousel-item img {
-    width: 100%;
-    height: 200px;
+footer a {
+    color: white;
+    text-decoration: none;
+    
 }
 
-.carousel-inner img {
-    width: 100%;
-    height: 500px;
+footer a:hover {
+    text-decoration: underline;
 }
 
-#carouselExampleIndicators {
-    width: 100%;
-    height: auto;
+iframe{
+    width: 300px;
+    height: 100px;
 }
 
-.elementor-widget-container {
-    display: flex;
-    justify-content: center;
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-.form-control.me-2 {
-    flex: 1;
-}
+/* label {
+    display: block;
+    margin-bottom: 5px;
+} */
+
+
+
 
 @media (max-width: 768px) {
     .navbar-expand-lg .navbar-nav {
